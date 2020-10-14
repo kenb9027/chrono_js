@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: flex-start;
+align-items: center;
+}
+
+.chrono {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+background-color: rgb(51, 50, 50);
+border-radius: 20%;
+height: 400px;
+width: 550px;
+margin: 25px;
+box-shadow: black 4px 6px;
+
+}
+
+.touch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: white 2px solid;
+    border-radius: 15px;
+    margin-bottom: 10px;
+
+}
+
+button{
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+   
+
+    background-color: rgb(158, 158, 158);
+    border-radius: 20px;
+    font-weight: bold; 
+    box-shadow: 3px 4px black;
+    
+}
+
+.screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.screen div {
+display: flex;
+justify-content: center;
+align-items: center;
+
+    height: 120px;
+    width: 150px;
+    margin: 8px;
+
+    
+    background-color: rgb(213, 221, 205);
+    color: rgb(0, 0, 0, 0.8);
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 70px;
+    font-family: sans-serif;
+ 
+    
+}
+
+.timeIndic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.timeIndic div{
+    height: 30px;
+    width: 150px;
+    margin: 5px;
+
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    font-weight: bold; 
+    font-style: italic;
+    text-align: center;
+}
